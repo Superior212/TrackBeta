@@ -1,0 +1,27 @@
+.hero{
+background: #092C4C;
+border-bottom-left-radius: 50px;
+border-bottom-right-radius: 50px;
+padding-bottom: 80px;
+}
+
+.heroImg{
+margin-top: 10px;
+margin-left: -100px;
+
+}
+/* .row{
+    padding: 100px;
+} */
+
+.heroText{
+padding: 30px;
+text-align: start;
+margin-right: -100px;
+}
+
+.btn{
+    border-radius: 0 !important;
+    background-color: #F2994A;
+    border: 0;
+}
