@@ -1,0 +1,14 @@
+.navBtn {
+  border-radius: 0;
+  background-color: #f2994a;
+  border: 0;
+  color: white;
+  padding: 10px 20px;
+}
+.heroBtn {
+  background-color: #f2994a;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 20px 0;
+}

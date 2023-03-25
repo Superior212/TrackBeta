@@ -1,0 +1,19 @@
+.line {
+  border-left: 6px dotted #092c4c;
+  height: 600px;
+  position: absolute;
+  left: 50%;
+  top: 500;
+}
+
+.benefitText {
+  padding: 100px;
+  margin-top: 70px;
+}
+
+@media screen and (max-width: 600px) {
+  .benefitText {
+    padding: 100px;
+    margin-top: 100px;
+  }
+}

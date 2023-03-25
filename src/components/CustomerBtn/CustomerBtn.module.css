@@ -1,0 +1,26 @@
+body {
+  overflow-x: hidden;
+}
+/* button {
+  background: linear-gradient(360deg, #092c4c 14%, rgba(9, 44, 76, 0) 195.2%);
+  border-radius: 8px;
+  padding: 20px 30px;
+  border: 0;
+} */
+
+.line {
+  border-left: 6px dotted #092c4c;
+  height: 100px;
+  position: absolute;
+  left: 40%;
+}
+.line2 {
+  border-left: 6px dotted #092c4c;
+  height: 100px;
+  position: absolute;
+  left: 60%;
+}
+
+.content {
+  padding: 180px;
+}

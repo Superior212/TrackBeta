@@ -1,0 +1,8 @@
+.navbar {
+  background-color: #092c4c;
+  border-bottom: 1px solid #13395c;
+}
+
+.navbar-nav {
+  margin-left: auto;
+}

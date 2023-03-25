@@ -1,7 +1,7 @@
-import React from 'react'
+import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap";
-import './Teams.css'
+import styles from "./Teams.module.css";
 import adidas from "../../assests/adidas.png";
 import jiji from "../../assests/jiji.png";
 import zara from "../../assests/zara.png";
@@ -10,17 +10,31 @@ import supermarket from "../../assests/supermarket.png";
 
 const Teams = () => {
   return (
-    <div className='teams bg-white mx-auto'>
-        <p className='pt-4'>Trusted by teams at over 200,000 of the world’s leading organisations</p>
-        <div className=''> 
-            <img src={adidas}  className="mx-5" alt="" />
-            <img src={jiji}  className="mx-5" alt="" />
-            <img src={zara}  className="mx-5" alt="" />
-            <img src={kilimall}  className="mx-5" alt="" />
-            <img src={supermarket} className="mx-5" alt="" />
+    <section className="container-fluid">
+      <div className={`${styles.teams} bg-white mx-auto`}>
+        <p className="pt-4 text-center fw-bold">
+          Trusted by teams at over 200,000 of the world’s leading organisations
+        </p>
+        <div className="row d-flex justify-content-center align-items-center">
+          <div className="col-6 col-sm-6 col-md-4 col-lg-2 mb-4">
+            <img src={adidas} className="img-fluid" alt="adidas" />
+          </div>
+          <div className="col-6 col-sm-6 col-md-4 col-lg-2 mb-4">
+            <img src={jiji} className="img-fluid" alt="jiji" />
+          </div>
+          <div className="col-6 col-sm-6 col-md-4 col-lg-2 mb-4">
+            <img src={zara} className="img-fluid" alt="zara" />
+          </div>
+          <div className="col-6 col-sm-6 col-md-4 col-lg-2 mb-4">
+            <img src={kilimall} className="img-fluid" alt="kilimall" />
+          </div>
+          <div className="col-6 col-sm-6 col-md-4 col-lg-2 mb-4">
+            <img src={supermarket} className="img-fluid" alt="supermarket" />
+          </div>
         </div>
-    </div>
-  )
-}
+      </div>
+    </section>
+  );
+};
 
-export default Teams
+export default Teams;
